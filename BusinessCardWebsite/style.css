@@ -1,0 +1,44 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(255, 30, 30);
+  font-family: 'Lato', sans-serif;
+}
+
+.logo
+{
+  color: rgb(210, 210, 210);
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.menu-links
+{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.menu-links li
+{
+  list-style: none;
+
+}
+
+.menu-links a
+{
+  color: rgb(210, 210, 210);
+  text-decoration: none;
+  font-size: 16px;
+}
