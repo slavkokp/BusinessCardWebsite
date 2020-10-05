@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.6;
 }
 
 .menu
@@ -56,8 +57,99 @@
   text-shadow: 0px 0px 3px black;
 }
 
+#main-container
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 main
 {
+  display: flex;
+  font-family: 'Lato', sans-serif;
   margin-top: 8vh;
-  height: 3000px;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 70%;
+}
+
+main h4
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#welcome
+{
+  text-align: left;
+  
+  font-size: 40px;
+  letter-spacing: 5px;
+  height: 500px;
+}
+
+#worked-with
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 0 30px;
+}
+
+#worked-with img
+{
+  height: 80px;
+  width: auto;
+}
+
+#dota_logo
+{
+  height: 80px;
+  width: 80px;
+}
+
+.recommendations
+{
+  margin: 0 0 30px;
+}
+
+.recom-block
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.recommendations li
+{
+  font-size:20px;
+  width: 30%;
+  border: 1px solid rgb(81, 84, 85);
+  padding: 20px;
+  list-style: none;
+}
+
+.recommendations li p
+{
+  margin: 0 0 28px;
+}
+
+.short-about
+{
+  margin: 0 0 30px;
+}
+
+.short-about img
+{
+  height: 100px;
+  width: auto;
+  float: left;
+  padding-right: 10px;
+}
+
+.short-about p
+{
+  float: left;
+  width:50%;
 }
