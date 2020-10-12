@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <script src="scripts/menu_scroll.js"></script>
+  <script src="scripts/gallery_script.js"></script>
+  <title>Razer Kraken Pro</title>
+</head>
+<body>
+  <nav class="menu">
+    <div class="logo">
+      <h4>Jennifer Connelly</h4>
+    </div>
+    <ul class="menu-links">
+      <li>
+        <a href="C:\Users\User\source\repos\BusinessCardWebsite\BusinessCardWebsite\index.html">Home</a>
+      </li>
+      <li>
+        <a href="#">Portfolio</a>
+      </li>
+      <li>
+        <a href="#">Contact me</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="main-container">
+    <ul class="current-picture">
+      <li>
+        <img src="img/anti-mage.png" alt="Anti-mage">
+      </li>
+      <li>
+        <img src="img/qop.png" alt="Queen of Pain">
+      </li>
+      <li>
+        <img src="img/Sydney.png" alt="Sydney">
+      </li>
+    </ul>
+    <a id="buttons-prev" onclick="plusSlides(-1)">❮</a>
+    <a id="buttons-next" onclick="plusSlides(1)">❯</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <ul class="row">
+      <li>
+        <img class="gallery-image" src="img/anti-mage.png" onclick="currentSlide(1)" alt="Anti-mage">
+      </li>
+      <li>
+        <img class="gallery-image" src="img/qop.png" onclick="currentSlide(2)" alt="Queen of Pain">
+      </li>
+      <li>
+        <img class="gallery-image" src="img/Sydney.png" onclick="currentSlide(3)" alt="Sydney">
+      </li>
+    </ul>
+  </div>
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+  </script>
+</body>
+</html>
