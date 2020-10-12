@@ -183,12 +183,15 @@
 .current-picture
 {
   margin: 10vh 0 0;
+  border: 5px solid rgb(81, 84, 85);
+  border-radius: 5px;
 }
 
 .current-picture li
 {
   list-style: none;
   display: none;
+  line-height: 0;
 }
 
 .current-picture li img
@@ -239,12 +242,22 @@
   margin: 6px 0 10px;
 }
 
+.row
+{
+  border: 5px solid rgb(81, 84, 85);
+  border-radius: 3px;
+}
+
 .row li 
 {
   cursor: pointer;
   list-style: none;
   float: left;
   height: 200px;
+}
+.row li img
+{
+  height: 100%;
 }
 
 .gallery-image 
